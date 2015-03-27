@@ -15,8 +15,7 @@ xmlhttp.send();
 xmlDoc=xmlhttp.responseXML; 
 
 document.write("<table><tr><th>District</th><th>Danger Level Today</th><th>Danger Level Tomorrow</th><tr>");
-
-var x=xmlDoc.getElementsByTagName("District").GetAttribute(;
+var x=xmlDoc.getElementsByTagName("District");
 for (i=0;i<x.length;i++) 
   { 
   	document.write("<tr><td>");
